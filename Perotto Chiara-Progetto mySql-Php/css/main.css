@@ -1,0 +1,191 @@
+/*Page*/
+body{
+	background-color: #eceff0;
+	display: flex;
+	justify-content: center;
+}
+
+body,
+input {
+	font-family:"Shadows Into Light Two", cursive;
+	font-size: 20px;
+}
+
+.Button{
+	font-family:"Shadows Into Light Two", cursive;
+	color:#363639;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.Page{
+	width: 100%;/*bo*/
+	max-width: 500px;
+}
+
+/*Bar Menu*/
+
+.Header-Bar{
+	display: flex;
+}
+
+.img1{
+	margin-top: 3%;
+	margin-left: 23%;
+}
+
+.img2{
+	margin-top: 3%;
+	margin-left: 15%;
+}
+
+/*List*/
+
+.List{
+	background-color:rgb(235, 214, 33);
+	margin:20px auto;
+	width:100%;
+	max-width:600px;
+	padding:20px;
+	border-radius:2px;
+	box-shadow:3px 3px 0 rgba(0,0,0,.1);
+	box-sizing: border-box;
+}
+
+.Header {
+	margin: 0 0 10px 0;
+}
+
+/*Items*/
+
+.Items {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	font-size: 30px;	
+}
+
+/*Link*/
+
+.Items li:hover .done-button {
+	opacity:1;
+}
+.Items li:hover .not-button {
+	opacity:1;
+}
+.Items li:hover .running-button {
+	opacity:1;
+}
+.Items li:hover .notrunning-button {
+	opacity:1;
+}
+
+.Items li:hover .delete {
+	opacity:1;
+}
+
+.Items .Item-done{
+	text-decoration:line-through;
+}
+
+.Items li{
+	border:0;
+	border-bottom:2px dashed rgb(10, 10, 10);
+	padding: 15px 0;
+}
+
+.username{
+	border:0;
+	border-bottom:2px dashed rgb(10, 10, 10);
+	padding: 15px 0;
+}
+
+.Input {
+	width:100%;
+}
+
+.Input:focus {
+	outline:none;
+}
+
+/*Button*/
+
+.running a{
+	display:inline-block;
+	font-size:0.8em;
+	background-color: #960303;
+	color: #f9f9fa;
+	padding: 3px 6px;
+}
+
+.start a{
+	display:inline-block;
+	font-size:0.8em;
+	background-color: #0e9035;
+	color: #eaf3ed;
+	padding: 3px 6px;
+	
+}
+
+.start{
+	display: inline;
+}
+
+.running{
+	display: inline;
+}
+
+.delete{
+	display: inline;
+}
+
+.done-button {
+	display:inline-block;
+	font-size:0.8em;
+	background-color: #d9dfe1;
+	color: #363639;
+	padding: 3px 6px;
+	opacity: 0.4;
+}
+
+.done-button a {
+	text-decoration:none;
+	border-bottom:1px dashed #363639;
+	
+}
+
+.not-button a {
+	text-decoration:none;
+	border-bottom:1px dashed #363639;
+}
+
+.not-button {
+	display:inline-block;
+	font-size:0.8em;
+	background-color: #d9dfe1;
+	color: #363639;
+	padding: 3px 6px;
+	opacity: 0.4;
+}
+
+/*Input*/
+
+.Input{
+	margin-top: 20px;
+	padding: 15px 0;
+}
+
+
+/* Submit Button */
+
+.Submit{
+	background-color: #fff;
+	padding:5px 10px;
+	border: 1px solid #ddd;
+	width:100%;
+	margin-top: 10px;
+	box-shadow: 3px 3px 0 #ddd;
+}
+
+
+
